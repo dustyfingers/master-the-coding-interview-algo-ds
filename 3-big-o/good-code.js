@@ -81,8 +81,28 @@ function printAllNumbersThenAllPairSums(numbers) {
     })
 }
 
-printAllNumbersThenAllPairSums(boxes);
+// printAllNumbersThenAllPairSums(boxes);
 
 // O(n + n^2) => O(n^2)
 
 // oh no! factorial time O(n!) - creating a nested loop for every input we have
+
+// space complexity aside:
+function boo(input) {
+    for (let i = 0; i < input.length; i++) {
+        console.log('boo!')
+    }
+}
+// space complexity of O(1) (no new memory allocation)
+
+boo([1,2,3,4,5])
+
+function arrayOfHiNTimes(n) {
+    let hiArray = [];
+    for (let i = 0; i < input.length; i++) {
+        hiArray[i] = 'hi'
+    }
+    return hiArray;
+}
+// space complexity of O(n) - we are assigning memory linear to the input
+
