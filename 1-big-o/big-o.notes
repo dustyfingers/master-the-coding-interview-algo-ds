@@ -1,5 +1,0 @@
-what is good code?
-1. good code is *readable*
-2. good code is *scaleable*
-
-big o gives us a language to use to describe how well code scales
