@@ -84,3 +84,5 @@ function printAllNumbersThenAllPairSums(numbers) {
 printAllNumbersThenAllPairSums(boxes);
 
 // O(n + n^2) => O(n^2)
+
+// oh no! factorial time O(n!) - creating a nested loop for every input we have
