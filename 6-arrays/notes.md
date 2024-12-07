@@ -1,0 +1,1 @@
+an array orders items sequentially
