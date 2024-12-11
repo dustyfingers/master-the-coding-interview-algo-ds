@@ -95,4 +95,3 @@ myLinkedList.insert(3, 357);
 // myLinkedList.remove(3);
 
 console.log(myLinkedList.printList())
-
